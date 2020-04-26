@@ -5,11 +5,11 @@ Analysis performed using a public dataset of 4chan's /pol/ board (https://zenodo
 
 
 save_data_streaming_pickle.py
-Reformats the data file.
+Reformats the data file
 
 
 clean_data_streaming_multiprocessed.py
-Cleans each line of text in the data.
+Cleans each line of text in the data
 
 
 compare_perspectives.py 
