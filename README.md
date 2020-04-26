@@ -5,35 +5,45 @@ Analysis performed using a public dataset of 4chan's /pol/ board (https://zenodo
 
 
 save_data_streaming_pickle.py
-   Reformats the data file.
+Reformats the data file.
 
 
 clean_data_streaming_multiprocessed.py
-   Cleans each line of text in the data.
+Cleans each line of text in the data.
 
 
 compare_perspectives.py 
-    Finds average eprspectives for keyword subsets
+Finds average eprspectives for keyword subsets
+
 perspectives_for_random_sample.py
-   Repeats the above process for a random sample
+Repeats the above process for a random sample
+
 
 make_engagements_to_plot.py
-    Finds the engagement level for each thread 
+Finds the engagement level for each thread 
+
 plot_engagement.py
-    Plots thread engagement
+Plots thread engagement
+
 
 find_entities.py
-    Finds the named entities in each post
+Finds the named entities in each post
+
 examine_entities.py
-    Plots the results 
+Plots the results 
+
 
 make_all_unique_words.py
-  Makes a Counter for all unique words in the data
+Makes a Counter for all unique words in the data
+
 make_keyword_unique_words.py
-  Makes Counters for each subset of data containing a keyword
+Makes Counters for each subset of data containing a keyword
+
 make_bigram_counter.py
-  Makes a counter of bigrams for each keyword  
+Makes a counter of bigrams for each keyword  
+
 examine_keyword_cooccurence.py
-  Plots table of cooccurence results
+Plots table of cooccurence results
+
 examine_bigrams
-  Plots table of bigram results
+Plots table of bigram results
